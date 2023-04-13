@@ -1,0 +1,255 @@
+ul,li{
+    display: inline-block;
+}
+img{
+    width: 175px;
+    height: 45px;;
+}
+nav{
+    background: #171a21;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+html,body{
+    margin:0;
+}
+.left a, .right a {
+    color:#b8b6b4;
+    text-decoration: none;
+    font-size: 14px;
+    margin:5px;
+    font-family: sans-serif;
+}
+.right a{
+    font-size: 11px !important;
+}
+.x{
+    margin-top:6px;
+}
+.right span{
+    color:#b8b6b4;
+    font-size: 11px;
+}
+.gr{
+    background: #5c7e10;
+    color:#e5e4dc !important;
+    border-radius: 2px;
+    padding: 0px 9px 0px 35px !important;
+    background-image: url("https://store.cloudflare.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1");
+    font-size: 11px !important;
+    font-family: sans-serif;
+    background-position: 10px 5px;
+    padding-top: 6px !important;
+    background-repeat: no-repeat;
+    width: 110px !important;
+    display: block;
+    box-sizing: border-box;
+    height: 25px !important;
+}
+.right{
+    display: flex;
+    margin-left:80px;
+    margin-right: 80px;
+    flex-wrap: wrap;
+}
+.left{
+    margin-left:80px;
+    margin-right: 80px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.main{
+    width: 100%;
+    height: 800px;
+    background-image: url("https://store.cloudflare.steamstatic.com/public/shared/images/joinsteam/acct_creation_bg.jpg");
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-color: #212429;
+}
+h1{
+    margin:0;
+    color:white;
+    font-family: sans-serif;
+}
+.f{
+    display: flex;
+    flex-direction: column;
+    margin-top:35px;
+}
+.f input{
+    width: 300px;
+    background: #32353c;
+    height: 34px;
+    padding: 6px 8px;
+    box-sizing: border-box;
+    border:none;
+}
+.f label{
+    color:#b8b6b4;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+form{
+    padding-left: 25%;
+    padding-top: 5%;
+}
+.rob{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    border: 1px solid #525252;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top:35px;
+    height: 74px;
+    background: #222;
+    border-radius: 3px;
+    align-items: center;
+}
+.rob1 input{
+    width: 30px;
+    height: 30px;
+}
+.rob1 span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:white;
+}
+.rob1{
+    
+    display: flex;
+    align-items: center;
+}
+.im{
+    width: 48px;
+    height: 48px;
+}
+.chk{
+    margin-top:35px;
+    display: flex;
+}
+
+.chk span{
+    display: block;
+    width: 620px;
+    color: #b8b6b4;
+}
+.chk a{
+    margin-left: -20px;
+    text-decoration: none;
+    color:wheat;
+    
+}
+.chk input{
+    margin-top:-1px;
+    width: 19px;
+    height: 19px;
+}
+
+.humb{
+    width: 35px;
+    height: 35px;
+    display: none;
+}
+.myul1{
+    display: none;
+}
+@media screen and (min-width:680px) and (max-width:1100px){
+  .humb{
+      display: block;
+      margin-left: 35px;
+  }
+  .main{
+      background-size: 100% 100%;
+  }
+  .chk a{
+      margin:0;
+  }
+  .myul1{
+
+      padding: 0;
+      margin-left: 32px;
+  }
+  .respdiv{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      
+  }
+  .myul{
+      display: none;
+  }
+  .right{
+      display: none;
+  }
+  .left{
+      margin:0;
+      width: 100%;
+      justify-content: space-between;
+      align-items: flex-start;
+  }
+  .respdiv:hover .myul1{
+     display: block;
+  }
+  .myul1 li{
+      display: block;
+  }
+
+}
+
+@media screen and (min-width:0px) and (max-width:680px){
+    .humb{
+        display: block;
+        margin-left: 35px;
+    }
+    form{
+        padding: 50px 20px;
+    }
+    .main{
+        background-size: 100% 100%;
+    }
+ .rob{
+     width: 100%;
+ }
+    .f input{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .chk a{
+        margin:0;
+    }
+    .myul1{
+  
+        padding: 0;
+        margin-left: 32px;
+    }
+    .respdiv{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .myul{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .left{
+        margin:0;
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .respdiv:hover .myul1{
+       display: block;
+    }
+    .myul1 li{
+        display: block;
+    }
+  
+  }
+  
